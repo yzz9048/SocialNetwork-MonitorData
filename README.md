@@ -6,8 +6,8 @@ The workload script (locust.py) is a compose-post request implemented by locust.
 
 Folder:
 The folder "normal" records monitoring data for 8 hours of continuous normal workload.
-The folder "pod" and "node" represent the faults injected into pod and server, respectively. Specifically, each "time" folder represents an experiment. The time in "log" folder is UTC+0, and you have to add 8h when fusing data to align the time with the metric/trace. The specific execution time of all experiments is as follows:
-"pod/cpu_leak/time1" : 2025-1-9T15:10 to 2025-1-9T15:20
+The folder "pod" and "node" represent the faults injected into pod and server, respectively. Specifically, each "time" folder represents an experiment. The time in "log" folder is UTC+0, and you have to add 8h when fusing data to align the time with the metric/trace. The specific execution time of all experiments is as follows:\n
+"pod/cpu_leak/time1" : 2025-1-9T15:10 to 2025-1-9T15:20\n
 "pod/cpu_leak/time2" : 2025-1-9T15:31 to 2025-1-9T15:41
 "pod/cpu_leak/time3" : 2025-1-9T15:50 to 2025-1-9T16:00
 "node/cpu_leak/time1" : 2025-1-9T16:30 to 2025-1-9T16:40
